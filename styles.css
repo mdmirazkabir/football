@@ -99,3 +99,23 @@ color: #6C6C6C;
 font-weight: 200
 ;
   }
+
+  .bottom-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightgrey;}
+
+.bottom-text1{
+    height: 469px;
+    width: 309;
+    padding: 20px;
+    width: 469px;
+height: 309px;
+left: 182px;
+padding-top: 150px;
+  }
+
+  footer{
+    align-content: center;
+  }
