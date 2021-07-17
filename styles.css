@@ -1,13 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .top-section{
     display: flex;
+    justify-content:center; 
     background-color: #2D25A0;
-    margin: 0px;
-    padding: 0px;
+    
 }
 #head-color{
     color: white;
-    font-family: font-family 'Poppins' sans-serif;
-    font-weight: 700; 
+    font-family:'Poppins' sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 200px;
+    padding-left: 20px;
+    text-align: center;
 }
 
 .button {
@@ -22,16 +33,19 @@
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    
+    
   }
   
-  .button span {
+.button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    
   }
   
-  .button span:after {
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -40,17 +54,18 @@
     transition: 0.5s;
   }
   
-  .button:hover span {
+.button:hover span {
     padding-right: 25px;
   }
   
-  .button:hover span:after {
+.button:hover span:after {
     opacity: 1;
     right: 0;
   }
 
-  .banner{
-      width: 556;
-      height: 438;
-              
+.banner{
+    background-color: #2D25A0;     
+    
   }
+ 
+  
